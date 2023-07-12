@@ -1,0 +1,64 @@
+.banner{
+    margin-top: -110px;
+    height: 80vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(180deg,#000 0%,rgba(0,0,0,0)100%),
+    url("https://d18hry5vavz86j.cloudfront.net/TheaterImages/63d41b6b-f34c-4f03-b8a4-55a59485ec14.jpg")center center;
+}
+
+.banner_info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding-top: 15vh;
+    padding-bottom: 70px;
+    width: 800px;
+}
+
+.banner_info > button{
+    background-color: lightgray !important;
+    margin-right: 10px !important;
+    width: 202px !important;
+    height: 45px !important;
+    background: #fff !important;
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: none !important;
+    text-transform: inherit;
+}
+
+
+.banner_info > h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 672px;
+    height: 25px;
+    font-family: "Lexend";
+    font-size: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+    color: rgb(247, 178, 31);    
+}
+
+.banner_info > h1{
+    top: 285px;    
+    width: 996px;
+    height: 128px;
+    font-family: "Lexend";
+    font-size: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    text-align: center;
+}
